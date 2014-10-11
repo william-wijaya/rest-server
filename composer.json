@@ -1,0 +1,42 @@
+{
+    "name": "plum/rest-server",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/william-wijaya/gen"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/william-wijaya/reflect"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/william-wijaya/inject"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/william-wijaya/mapper"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/william-wijaya/http"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/william-wijaya/rest"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6",
+        "plum/rest": "@dev",
+        "plum/inject": "@dev",
+        "plum/mapper": "@dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "@stable"
+    },
+    "autoload": {
+        "psr-4": { "Plum\\Rest\\Server\\": "" }
+    }
+}
